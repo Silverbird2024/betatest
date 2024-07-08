@@ -174,6 +174,7 @@ $App.V1kt2yv5 = $scope.Calculate($App.V1kt2yveachweek5+"*104",-1);
 $App.mpq01 = $scope.Calculate($App.mpw01+"*13",-1);
 $App.mbe01 = $scope.Calculate($App.M001+"/"+$App.mpw01,4);
 $App.tmcv001 = $scope.Calculate($App.mpq01+"*6",4);};
+$App.NAB.note_hidden=true;
 angular.element(document).ready( function(){
 $scope.__init();
 neo = angular.element(document.getElementById("ng-view")).scope();neo.Refresh();});
